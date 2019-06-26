@@ -1,5 +1,9 @@
 version: '2'
 services:
-  master:
-    build: .
-    container_name: master
+    master:
+        build: .
+        command: bash -c "source /opt/ros/melodic/setup.bash && roscore"
+        container_name: master
+    bridge:
+        build: .
+        container_name: bridge

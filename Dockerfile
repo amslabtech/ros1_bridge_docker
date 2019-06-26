@@ -59,4 +59,4 @@ RUN mkdir -p ros2_ws/src
 WORKDIR /root
 
 COPY ./ros_entrypoint.sh /
-ENTRYPOINT ["/ros_entrypoint.sh"]
+CMD ["/ros_entrypoint.sh"]
