@@ -16,4 +16,4 @@ before_install:
     - docker-compose up -d
 
 script:
-    - docker-compose run master
+    - docker-compose up -d
