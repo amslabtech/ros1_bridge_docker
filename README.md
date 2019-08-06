@@ -14,7 +14,7 @@ git clone https://github.com/amslabtech/ros1_bridge_docker
 cd ros1_bridge_docker
 ./build.sh
 ```
-you also can pull docker image from dockerhub
+you can also pull docker image from dockerhub
 ```
 docker pull amslabtech/ros1_bridge:dashing
 ```
